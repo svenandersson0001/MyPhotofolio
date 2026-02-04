@@ -13,10 +13,16 @@ export default function ProjectsSection() {
   useEffect(() => {
     const loadProjects = async () => {
       try {
-        const response = await fetch('/projects.json');
+        // Get basePath from window location or use default
+        const basePath = typeof window !== 'undefined' && window.location.pathname.startsWith('/MyPhotofolio') 
+          ? '/MyPhotofolio' 
+          : '';
+        const response = await fetch(`${basePath}/projects.json`);
         if (response.ok) {
           const data = await response.json();
           setProjectsData(data);
+        } else {
+          console.error('Failed to load projects:', response.status, response.statusText);
         }
       } catch (error) {
         console.error('Failed to load projects:', error);
