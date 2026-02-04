@@ -4,6 +4,7 @@ const nextConfig = {
   output: 'export',
   basePath: '/MyPhotofolio',
   assetPrefix: '/MyPhotofolio',
+  trailingSlash: true,
   images: {
     domains: [],
     unoptimized: true,
