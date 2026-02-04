@@ -1,0 +1,65 @@
+{
+  "categories": [
+    {
+      "category": "Web",
+      "projects": [
+        {
+          "title": "Betsson Gaming Platform",
+          "description": "High-performance React/TypeScript gaming platform with real-time data integration. Built scalable frontend modules, optimized API performance, and implemented distributed tracing for production monitoring. Handled high-traffic periods with improved UI performance and latency optimization.",
+          "preview": "/images/betsson-platform.jpg",
+          "website": "https://www.betsson.com",
+          "technologies": ["React", "TypeScript", "Next.js", "GraphQL", "Node.js", "Docker"]
+        },
+        {
+          "title": "Recipharm Manufacturing Dashboard",
+          "description": "Comprehensive manufacturing and logistics dashboard powered by REST, GraphQL, and WebSocket connections. Features real-time data visualization, scalable state management, and internal tools for production teams. Improved component architecture and reduced frontend bugs significantly.",
+          "preview": "/images/recipharm-dashboard.jpg",
+          "website": "https://www.recipharm.com",
+          "technologies": ["React", "TypeScript", "GraphQL", "WebSocket", "Node.js", "PostgreSQL"]
+        },
+        {
+          "title": "AFRY Industrial Monitoring System",
+          "description": "Internal tooling system for distributed backend integration with sensor and equipment data visualization. Refactored legacy codebases for better performance and maintainability. Integrated real-time dashboards with REST APIs and reduced technical debt across multiple applications.",
+          "preview": "/images/afry-monitoring.jpg",
+          "website": "https://www.afry.com",
+          "technologies": ["React", "JavaScript", "Node.js", "REST API", "MySQL"]
+        }
+      ]
+    },
+    {
+      "category": "C++",
+      "projects": [
+        {
+          "title": "High-Performance IPTV Streaming Engine",
+          "description": "Custom media engine with asynchronous processing pipelines for IPTV streaming. Implemented lock-free queues, thread affinity, and render scheduling for optimal performance. Features adaptive buffering, multi-threaded network handling, and FFmpeg integration for codec support. Reduced playback interruptions significantly through optimized buffering algorithms.",
+          "preview": "/images/iptv-engine.jpg",
+          "technologies": ["C++", "Qt", "FFmpeg", "Multithreading", "Network Programming"]
+        },
+        {
+          "title": "Real-Time Oscilloscope Application",
+          "description": "Professional oscilloscope software built with Qt/C++ for audio signal analysis. Features real-time waveform visualization, frequency analysis, signal filtering, and data export capabilities. Implemented efficient threading for continuous data acquisition and processing without UI blocking.",
+          "preview": "/images/oscilloscope.jpg",
+          "technologies": ["C++", "Qt", "Multithreading", "Audio Processing"]
+        },
+        {
+          "title": "Face Recognition System",
+          "description": "Real-time face recognition application with GPU-accelerated inference using Luxand SDK and OpenCV. Features multi-camera support, preprocessing pipelines, and high-accuracy recognition in varied lighting conditions. Includes face detection, recognition, and tracking capabilities with database integration.",
+          "preview": "/images/face-recognition.jpg",
+          "technologies": ["C++", "Luxand SDK", "OpenCV", "Qt", "GPU Processing"]
+        }
+      ]
+    },
+    {
+      "category": "AI/Automation",
+      "projects": [
+        {
+          "title": "Intelligent Chatbot System",
+          "description": "Advanced chatbot powered by OpenAI API with custom integration for vijilan.com. Features natural language understanding, context management, multi-turn conversations, and integration with company knowledge base. Includes sentiment analysis and automated response generation with fallback mechanisms.",
+          "preview": "/images/chatbot.jpg",
+          "website": "https://www.vijilan.com",
+          "technologies": ["Python", "OpenAI API", "LangChain", "FastAPI", "PostgreSQL"]
+        }
+      ]
+    }
+  ]
+}
